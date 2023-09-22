@@ -58,7 +58,7 @@ div {
     border-width: 2px 5px 0 0;
 }
 
-/* Compensate for poor black/white on blue color contrast */
+/* Compensate for poor black/white text color contrast on blue */
 .blue h2, .blue p {
     color: #C4C4C4;
 }
@@ -70,7 +70,7 @@ div {
     border-width: 0 0 2px 5px;
 }
 
-/* Compensate for poor white on yellow color contrast */
+/* Compensate for poor white text color contrast on yellow */
 .yellow p {
     color: #707070;
 }
@@ -85,12 +85,15 @@ div {
 
 /* Footer styles */
 footer {
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, #000000 0%,
-                                       #0000ff 25%,
-                                       #0066ff 70%,
-                                       #000000 100%);
     border: 5px solid #ffffff;
+    /* Include gradient generated using:
+    https://cssgradient.io/ */
+    background: #000000;
+    background: linear-gradient(90deg,
+                              #000000 0%,
+                              #0000ff 25%,
+                              #0066ff 70%,
+                              #000000 100%);
 }
 
 footer p {
