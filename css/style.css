@@ -15,3 +15,16 @@ h2 {
     font-size: 30px;
     color: #0D0D0D;
 }
+
+p {
+    font-size: 24px;
+    padding: 10px 0 0 10px;
+}
+
+img {
+    width: 250px;
+    border: 10px dashed #ffffff;
+    /* Center each image: */
+    margin: auto;
+    display: block;
+}
