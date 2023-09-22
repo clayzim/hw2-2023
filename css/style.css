@@ -1,3 +1,4 @@
+/* Default styles for basic elements */
 body {
     font-family: Arial, Verdana;
     background-color: #000000;
@@ -27,4 +28,56 @@ img {
     /* Center each image: */
     margin: auto;
     display: block;
+}
+
+div {
+    min-height: 125px;
+    padding: 20px;
+    border: 3px solid #ffffff;
+}
+
+
+/* Style themed sections */
+.introduction {
+    border-radius: 15px;
+    margin-top: 15px;
+    line-height: 2.0;
+}
+
+.red {
+    background-color: #ff0000;
+    text-align: right;
+    margin-left: 50px;
+    border-width: 0 0 2px 5px;
+}
+
+.blue {
+    background-color: #0000ff;
+    text-align: left;
+    margin-right: 50px;
+    border-width: 2px 5px 0 0;
+}
+
+/* Compensate for poor black on blue color contrast */
+.blue h2 {
+    color: #C4C4C4;
+}
+
+.yellow {
+    background-color: #ffff00;
+    text-align: right;
+    margin-left: 50px;
+    border-width: 0 0 2px 5px;
+}
+
+/* Compensate for poor white on yellow color contrast */
+.yellow p {
+    color: #707070;
+}
+
+.green {
+    background-color: #008500;
+    text-align: left;
+    margin-right: 50px;
+    border-width: 2px 5px 0 0;
 }
