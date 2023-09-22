@@ -58,8 +58,8 @@ div {
     border-width: 2px 5px 0 0;
 }
 
-/* Compensate for poor black on blue color contrast */
-.blue h2 {
+/* Compensate for poor black/white on blue color contrast */
+.blue h2, .blue p {
     color: #C4C4C4;
 }
 
