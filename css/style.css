@@ -25,7 +25,7 @@ p {
 img {
     width: 250px;
     border: 10px dashed #ffffff;
-    /* Center each image: */
+    /* Center each image */
     margin: auto;
     display: block;
 }
@@ -80,4 +80,22 @@ div {
     text-align: left;
     margin-right: 50px;
     border-width: 2px 5px 0 0;
+}
+
+
+/* Footer styles */
+footer {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, #000000 0%,
+                                       #0000ff 25%,
+                                       #0066ff 70%,
+                                       #000000 100%);
+    border: 5px solid #ffffff;
+}
+
+footer p {
+    font-size: 20px;
+    text-align: right;
+    padding: 15px;
+    padding-left: 0;
 }
